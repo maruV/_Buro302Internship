@@ -1,2 +1,0 @@
-cva-website-api
-cva-website-react/node_modules/
