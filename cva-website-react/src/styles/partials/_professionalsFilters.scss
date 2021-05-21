@@ -1,0 +1,129 @@
+.ProfessionalsFiltersContainer{
+  width: 30vw;
+  height: calc(88vh);
+  background-color: $professionalFilterGrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  overflow-y: hidden;
+
+  .filterHeadingContainer{
+    display: flex;
+    width: 100%;
+    height: 14vh;
+    background-color: $professionalFilterGrey;
+    justify-content: center;
+    align-items: flex-end;
+
+    .filterHeader{
+      font-family: $nevis;
+      color: $dark-grey-blue;
+    }
+  }
+
+  .filterIconsContainer{
+    display: flex;
+    width: 100%;
+    height: 74vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 20px;
+
+    .IconContainer {
+      display: flex;
+      width: 40%;
+      height: 10vh;
+      background-color: $professionalFilterGrey;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      opacity: 0.5;
+
+      .imageAndTextContainer{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+        .filterIconWrapper{
+          margin: 0;
+          padding: 0 0 10px 0;
+
+          .filterImage{
+            width: 100%;
+            height: 4vh;
+            margin: 0;
+            padding: 0;
+            fill: #ffffff;
+            transition: all ease-in-out 150ms;
+          }
+        }
+
+        .filterTitle{
+          margin: 0;
+          padding: 0;
+          color: $professionalFilterIcon;
+          font-family: $opensans;
+          font-size: medium;
+          font-weight: lighter;
+        }
+      }
+    }
+
+    .IconContainer.selected {
+      display: flex;
+      width: 40%;
+      height: 10vh;
+      background-color: $professionalFilterGrey;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      opacity: 1;
+
+      .imageAndTextContainer{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        transition: all ease-in-out 500ms;
+
+        .filterIconWrapper{
+          margin: 0;
+          padding: 0 0 10px 0;
+
+          .filterImage{
+            width: 100%;
+            height: 5vh;
+            margin: 0;
+            padding: 0;
+            fill: #ffffff;
+          }
+        }
+
+        .filterTitle{
+          margin: 0;
+          padding: 0;
+          color: $professionalFilterIcon;
+          font-family: $opensans;
+          font-size: medium;
+          font-weight: lighter;
+        }
+      }
+    }
+  }
+}

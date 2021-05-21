@@ -1,0 +1,180 @@
+.PopUpContainer {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  z-index: 8;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  opacity: 1;
+  transition: all ease-in-out 500ms;
+
+  &.fading {
+    opacity: 0;
+  }
+
+  .backgroundPopup {
+    background-color: $black;
+    opacity: 0.5;
+    width: 100vw;
+    height: 100%;
+    z-index: 9;
+    position: absolute;
+  }
+
+  .popUpBox {
+    width: 50vw;
+    background-color: $dark-grey-blue;
+    height: 52vh;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .crossContainer {
+      width: 96%;
+      height: 15%;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      border-right: solid white 1px;
+      border-left: solid white 1px;
+
+      .cross {
+        width: 10%;
+        height: 50%;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .linedBox {
+      height: 85%;
+      width: 96%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-right: solid white 1px;
+      border-left: solid white 1px;
+
+      .textContent {
+        height: 70%;
+        font-family: $opensans;
+        font-size: 17px;
+        font-weight: normal;
+        line-height: 1.95;
+        width: 90%;
+        display: flex;
+        align-items: flex-start;
+      }
+
+      .title {
+        width: 100%;
+        height: 30%;
+        margin: 0;
+        padding: 0;
+        font-family: $nevis;
+        font-size: 28px;
+        font-weight: bold;
+        line-height: 1.38;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@include phone {
+
+  .PopUpContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .backgroundPopup {
+      background-color: $black;
+      opacity: 0.5;
+      width: 100vw;
+      height: 100vh;
+      z-index: 9;
+    }
+
+    .popUpBox {
+      width: 90vw;
+      background-color: $dark-grey-blue;
+      height: 60vh;
+      z-index: 10;
+      color: white;
+      text-align: center;
+      padding: 0;
+      border-radius: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+      .crossContainer {
+        border-style: none;
+        width: 100%;
+        height: 20%;
+        display: flex;
+        justify-content: flex-end;
+
+        .cross {
+          margin: 0;
+          padding: 0;
+          width: 20%;
+          height: 30%;
+          font-size: 30px;
+          font-weight: lighter;
+          font-family: $opensans;
+          cursor: pointer;
+          display: flex;
+          justify-content: center;
+          border-style: none;
+        }
+      }
+
+      .linedBox {
+        border: none;
+        height: 90%;
+        width: 100%;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .textContent {
+          font-family: $opensans;
+          font-size: 1.8vh;
+          font-weight: normal;
+          line-height: 1.95;
+          width: 80%;
+          height: 80%;
+        }
+
+        .title {
+          font-family: $nevis;
+          font-size: 3vh;
+          font-weight: bold;
+          line-height: 1.38;
+          width: 90%;
+          height: 20%;
+        }
+
+
+      }
+
+    }
+  }
+}
+

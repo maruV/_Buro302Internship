@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1d55d177-ac60-4ab1-99c2-3faed5ee25f2" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="cva-website-react" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>fw</find>
+      <find>serial</find>
+      <find>embed id=</find>
+      <find>createConv</find>
+      <find>embed</find>
+      <find>Componen</find>
+      <find>compo</find>
+      <find>img</find>
+      <find>pa</find>
+      <find>background</find>
+      <find>leftSerial</find>
+      <find>filter-listcontainer</find>
+      <find>color:</find>
+      <find>size</find>
+      <find>web</find>
+      <find>border-radius</find>
+      <find>NavArrowWrapperRight</find>
+      <find>console</find>
+      <find>tex</find>
+      <find>bottom</find>
+      <find>no</find>
+      <find>this.props</find>
+      <find>this.</find>
+      <find>props</find>
+      <find>PopUpContainer</find>
+      <find>hide</find>
+      <find>menuOverlayContainer</find>
+      <find>transparentBackground</find>
+      <find>max-height: calc(100vh - 8vh);</find>
+      <find>log</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>NavLink</replace>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\IT\B302 Projects\cva-website-react\src\assets\fonts</dir>
+      <dir>E:\IT\B302 Projects\cva-website-react\src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1Tw7untmhJQHH2g6mKb8b9gqL2o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../GitHub/Repositories/it484v2" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IT\B302 Projects\cva-website-react\src\assets\files" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IT\B302 Projects\cva-website-react\src\pages" />
+      <recent name="E:\IT\B302 Projects\cva-website-react\src\Pages" />
+      <recent name="E:\IT\B302 Projects\cva-website-react\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d55d177-ac60-4ab1-99c2-3faed5ee25f2" name="Default Changelist" comment="" />
+      <created>1553601983622</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553601983622</updated>
+      <workItem from="1553601992930" duration="11161000" />
+      <workItem from="1553683722542" duration="19436000" />
+      <workItem from="1553772507259" duration="12754000" />
+      <workItem from="1553859379787" duration="16914000" />
+      <workItem from="1554125241844" duration="4150000" />
+      <workItem from="1554201982994" duration="4929000" />
+      <workItem from="1554276001565" duration="15572000" />
+      <workItem from="1554293750137" duration="9534000" />
+      <workItem from="1554380356902" duration="5891000" />
+      <workItem from="1554462003024" duration="3007000" />
+      <workItem from="1554713794316" duration="1359000" />
+      <workItem from="1554809267460" duration="5052000" />
+      <workItem from="1554889610335" duration="12272000" />
+      <workItem from="1554981509753" duration="503000" />
+      <workItem from="1555337270008" duration="79000" />
+      <workItem from="1555337397606" duration="103000" />
+      <workItem from="1555337577576" duration="13024000" />
+      <workItem from="1555423528292" duration="12696000" />
+      <workItem from="1555510641448" duration="32000" />
+      <workItem from="1555510745285" duration="8141000" />
+      <workItem from="1555593747430" duration="9577000" />
+      <workItem from="1556114251537" duration="9062000" />
+      <workItem from="1557324919095" duration="62000" />
+      <workItem from="1557325050275" duration="14850000" />
+      <workItem from="1557350366860" duration="3259000" />
+      <workItem from="1557406716580" duration="20726000" />
+      <workItem from="1557497353672" duration="3853000" />
+      <workItem from="1557756897190" duration="16174000" />
+      <workItem from="1557773579250" duration="1626000" />
+      <workItem from="1557843305601" duration="6389000" />
+      <workItem from="1557931002152" duration="237000" />
+      <workItem from="1558017649047" duration="8219000" />
+      <workItem from="1558095099575" duration="8493000" />
+      <workItem from="1558176710593" duration="31996000" />
+      <workItem from="1558300168435" duration="599000" />
+      <workItem from="1558362972067" duration="714000" />
+      <workItem from="1558369703801" duration="11740000" />
+      <workItem from="1558447890141" duration="14284000" />
+      <workItem from="1558533829026" duration="10306000" />
+      <workItem from="1558621109524" duration="1655000" />
+      <workItem from="1558696288893" duration="153000" />
+      <workItem from="1558707632535" duration="2629000" />
+      <workItem from="1558966668805" duration="15609000" />
+      <workItem from="1559056219611" duration="12070000" />
+      <workItem from="1559139651919" duration="3433000" />
+      <workItem from="1559561502351" duration="666000" />
+      <workItem from="1559570881209" duration="18060000" />
+      <workItem from="1559598741917" duration="5238000" />
+      <workItem from="1559657003160" duration="44000" />
+      <workItem from="1559657687797" duration="12128000" />
+      <workItem from="1559677889926" duration="2830000" />
+      <workItem from="1559743992318" duration="7106000" />
+      <workItem from="1559918572589" duration="3480000" />
+      <workItem from="1560261546132" duration="11501000" />
+      <workItem from="1560274084440" duration="1087000" />
+      <workItem from="1560793454340" duration="608000" />
+      <workItem from="1560856499757" duration="17315000" />
+      <workItem from="1560944906820" duration="10362000" />
+      <workItem from="1561026225699" duration="5101000" />
+      <workItem from="1561126214537" duration="3523000" />
+      <workItem from="1561382641681" duration="8704000" />
+      <workItem from="1561470726924" duration="6148000" />
+      <workItem from="1561537124129" duration="651000" />
+      <workItem from="1562578662365" duration="6875000" />
+      <workItem from="1569437686443" duration="723000" />
+      <workItem from="1571680928256" duration="659000" />
+      <workItem from="1574199973138" duration="5282000" />
+      <workItem from="1574206478413" duration="589000" />
+      <workItem from="1574359549068" duration="6961000" />
+      <workItem from="1575317129605" duration="11210000" />
+      <workItem from="1575409217009" duration="6659000" />
+      <workItem from="1575445068525" duration="1967000" />
+      <workItem from="1575478417545" duration="279000" />
+      <workItem from="1575601008810" duration="15000" />
+    </task>
+    <task id="LOCAL-00009" summary="All mobile pages at least half done, except Professional Page.">
+      <created>1557341958763</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1557341958763</updated>
+    </task>
+    <task id="LOCAL-00010" summary="just added new variables">
+      <created>1557412616436</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1557412616436</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Merge branch 'development' of https://bitbucket.org/b302programmers/cva-website-react into development&#10;&#10;# Conflicts:&#10;#&#9;src/styles/base/_variables.scss">
+      <created>1557412741315</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1557412741315</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Merged with feature branches. Styled mobile and web pages.">
+      <created>1557430101074</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1557430101074</updated>
+    </task>
+    <task id="LOCAL-00013" summary="responsive styling fixes">
+      <created>1557504021666</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557504021666</updated>
+    </task>
+    <task id="LOCAL-00014" summary="responsive styling fixes for Contact Page and Bottom Navigation bar with arrow.">
+      <created>1557775172327</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1557775172327</updated>
+    </task>
+    <task id="LOCAL-00015" summary="basic font and variable changes">
+      <created>1557853480303</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1557853480303</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Merge branch 'development' of https://bitbucket.org/b302programmers/cva-website-react into development&#10;&#10;# Conflicts:&#10;#&#9;src/Components/Navbar.js&#10;#&#9;src/styles/partials/Informatie.scss&#10;#&#9;src/styles/partials/ProfessionalsList.scss&#10;#&#9;src/styles/partials/navbar.scss">
+      <created>1557855268839</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1557855268839</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Merge and styling fixes.">
+      <created>1557856319972</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1557856319972</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Fixed responsive and vertical scroll issues for all mobile pages. Added Informatie button on the home page. Welcome popup box opens only once for the first time you visit the website.">
+      <created>1558025628951</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1558025628951</updated>
+    </task>
+    <task id="LOCAL-00019" summary="added menu button on the navbar.">
+      <created>1558025886319</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1558025886319</updated>
+    </task>
+    <task id="LOCAL-00020" summary="made the popUp box half responsive.">
+      <created>1558097137343</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1558097137343</updated>
+    </task>
+    <task id="LOCAL-00021" summary="responsive fixes to the popup box.">
+      <created>1558101282431</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1558101282431</updated>
+    </task>
+    <task id="LOCAL-00022" summary="pop up minor changes">
+      <created>1558108267893</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1558108267893</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fixed responsive issues for Informatie page. Fonts corrected for Home, Begeleiding, and Informatie.&#10; &#10; Home popup is responsive now (loading everytime you visit the website still needs to be fixed).&#10; &#10; Begeleiding page has the download button now and is fully responsive.&#10; &#10; Fixed Styling issues for Bottom NavBar on the homepage.">
+      <created>1558206566909</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1558206566910</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Fixed Responsive, whitespace, and font issues for Contact page (web and mobile).">
+      <created>1558214532637</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1558214532637</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added the Professional Information Page with components and stylesheets.">
+      <created>1558375794320</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1558375794320</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Stylized Professional Info Page.">
+      <created>1558381460966</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1558381460966</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Professional Page has everything for mobile and web except the weblink button, profile picture, and scroll down arrow">
+      <created>1558457755994</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1558457755994</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Professionals Page for mobile is fixed now (Navbar, fonts, and responsive).">
+      <created>1558462276343</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1558462276343</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Fixed NavBar issues on Home and Professional pages, corrected fonts, fixed Contact page and Informatie page issues with styling and editing.">
+      <created>1558548218524</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1558548218524</updated>
+    </task>
+    <task id="LOCAL-00030" summary="removed a redundant picture on the informatie page">
+      <created>1558622366785</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1558622366785</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Still need to fix the redundant picture on Informatie page (No changes in this commit from last one).">
+      <created>1558696369365</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1558696369365</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Recreated the menu overlay using React, fixed styling for Informatie and Home pop up box.">
+      <created>1559068773336</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1559068773336</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Styled the Professional Picture component with a placeholder image.">
+      <created>1559144133175</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1559144133175</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Fixes for both the navbars and home popup.">
+      <created>1559580462123</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1559580462123</updated>
+    </task>
+    <task id="LOCAL-00035" summary="styling fixes">
+      <created>1559590796358</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1559590796358</updated>
+    </task>
+    <task id="LOCAL-00036" summary="maps popup box is responsive for web now">
+      <created>1559601002370</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1559601002370</updated>
+    </task>
+    <task id="LOCAL-00037" summary="styling fixes for home and professional mobile pages">
+      <created>1559603869083</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1559603869083</updated>
+    </task>
+    <task id="LOCAL-00038" summary="styling fixes for all web and mobile pages, including maps popup and bottom navbar fixes">
+      <created>1559674007581</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1559674007582</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Professional Picture name container height fix">
+      <created>1559674206753</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1559674206753</updated>
+    </task>
+    <task id="LOCAL-00040" summary="colored the Professional filter images and added down arrow icon for both mobile and web.">
+      <created>1559680628261</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1559680628261</updated>
+    </task>
+    <task id="LOCAL-00041" summary="left and right arrow on navbars now appear and hide according to the scrollbar position.">
+      <created>1559750879878</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1559750879878</updated>
+    </task>
+    <task id="LOCAL-00042" summary="more info page styling fixes but the scroll does not work now.">
+      <created>1559922626359</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1559922626359</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Fixed all the styling issues for Contact, Home, Professional, and begeleiding pages for web and mobile.">
+      <created>1560273095847</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1560273095847</updated>
+    </task>
+    <task id="LOCAL-00044" summary="map bug between home and professionals page fixed along with &#10;visual feedback on Professional filter icons when selected and Professional&#10;button on the navbar now stays yellow when move to a professionals info page.">
+      <created>1560870270346</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1560870270347</updated>
+    </task>
+    <task id="LOCAL-00045" summary="you can go back to all professionals filter by clicking the same icon twice.">
+      <created>1560872198236</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1560872198236</updated>
+    </task>
+    <task id="LOCAL-00046" summary="login page basic styling">
+      <created>1560875156374</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1560875156374</updated>
+    </task>
+    <task id="LOCAL-00047" summary="added transitions for home popup, mobile menu, professional filter bar on home page and professional pages.">
+      <created>1560951406005</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1560951406005</updated>
+    </task>
+    <task id="LOCAL-00048" summary="now the user can click anywhere on the rest of the page to close the menu overlay in mobile">
+      <created>1560951878735</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1560951878735</updated>
+    </task>
+    <task id="LOCAL-00049" summary="finished styling login page">
+      <created>1560955806200</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1560955806201</updated>
+    </task>
+    <task id="LOCAL-00050" summary="admin page styling">
+      <created>1561035449126</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1561035449126</updated>
+    </task>
+    <task id="LOCAL-00051" summary="fixed some spacing issues on professionals page">
+      <created>1561130220839</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1561130220839</updated>
+    </task>
+    <task id="LOCAL-00052" summary="admin page styling">
+      <created>1561391580844</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1561391580845</updated>
+    </task>
+    <task id="LOCAL-00053" summary="download pdf button works now on the begeleiding page.">
+      <created>1561472778056</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1561472778057</updated>
+    </task>
+    <task id="LOCAL-00054" summary="working log out button for admin pages.">
+      <created>1561478175503</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1561478175503</updated>
+    </task>
+    <task id="LOCAL-00055" summary="register page styling and admin page fixes">
+      <created>1562681324887</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1562681324888</updated>
+    </task>
+    <task id="LOCAL-00056" summary="admin page login button styling fix">
+      <created>1562685057207</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1562685057207</updated>
+    </task>
+    <task id="LOCAL-00057" summary="admin page login button styling fix">
+      <created>1562685423044</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1562685423044</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added the menu bar but it does not close after you click on the links." />
+    <MESSAGE value="Recreated the menu overlay using React, fixed styling for Informatie and Home pop up box." />
+    <MESSAGE value="Styled the Professional Picture component with a placeholder image." />
+    <MESSAGE value="Fixes for both the navbars and home popup." />
+    <MESSAGE value="styling fixes" />
+    <MESSAGE value="maps popup box is responsive for web now" />
+    <MESSAGE value="styling fixes for home and professional mobile pages" />
+    <MESSAGE value="styling fixes for all web and mobile pages, including maps popup and bottom navbar fixes" />
+    <MESSAGE value="Professional Picture name container height fix" />
+    <MESSAGE value="colored the Professional filter images and added down arrow icon for both mobile and web." />
+    <MESSAGE value="left and right arrow on navbars now appear and hide according to the scrollbar position." />
+    <MESSAGE value="more info page styling fixes but the scroll does not work now." />
+    <MESSAGE value="Fixed all the styling issues for Contact, Home, Professional, and begeleiding pages for web and mobile." />
+    <MESSAGE value="map bug between home and professionals page fixed along with &#10;visual feedback on Professional filter icons when selected and Professional&#10;button on the navbar now stays yellow when move to a professionals info page." />
+    <MESSAGE value="you can go back to all professionals filter by clicking the same icon twice." />
+    <MESSAGE value="login page basic styling" />
+    <MESSAGE value="added transitions for home popup, mobile menu, professional filter bar on home page and professional pages." />
+    <MESSAGE value="now the user can click anywhere on the rest of the page to close the menu overlay in mobile" />
+    <MESSAGE value="finished styling login page" />
+    <MESSAGE value="fixed some spacing issues on professionals page" />
+    <MESSAGE value="admin page styling" />
+    <MESSAGE value="download pdf button works now on the begeleiding page." />
+    <MESSAGE value="working log out button for admin pages." />
+    <MESSAGE value="register page styling and admin page fixes" />
+    <MESSAGE value="admin page login button styling fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="admin page login button styling fix" />
+  </component>
+</project>

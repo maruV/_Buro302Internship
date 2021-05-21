@@ -1,0 +1,44 @@
+.MoreInfo{
+  height: calc(88vh);
+  width: 100vw;
+  display: flex;
+  background-color: $offwhite;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: $opensans;
+  overflow-y: hidden;
+  overflow-x: hidden;
+
+  .downscrollImageWrapper{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: transparent;
+    bottom: 3vh;
+    right: 3vw;
+
+    >img{
+      width: auto;
+      height: auto;
+      object-fit: contain;
+    }
+  }
+}
+
+@include phone{
+
+  .MoreInfo{
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .downscrollImageWrapper{
+      display: none;
+    }
+  }
+}

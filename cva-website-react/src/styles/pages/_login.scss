@@ -1,0 +1,243 @@
+.loginBlock {
+  overflow: hidden;
+  display: flex;
+  height: 88vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-color: $admin-white;
+
+  .loginFormContainer {
+    background-color: $offwhite;
+    width: 55vw;
+    height: auto;
+    border-radius: 3px;
+
+    .loginTitle {
+      width: 100%;
+      height: 8vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      letter-spacing: 2px;
+      font-size: 1.4rem;
+      border-radius: 3px 3px 0 0;
+      text-align: center;
+      background-color: $yellow;
+      color: $offwhite;
+    }
+
+    .loginContent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40vh;
+
+      .loginForm {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        box-sizing: border-box;
+        padding: 4vh 5vw 4vh 5vw;
+
+
+        .loginFormLabel {
+          width: 100%;
+          height: auto;
+          color: $dark-grey-blue;
+          letter-spacing: 1px;
+          font-size: 1rem;
+          display: flex;
+          align-items: center;
+        }
+
+        .loginFormField {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+          height: auto;
+          padding-bottom: 2vh;
+
+          .inputField {
+            width: 100%;
+            height: 5vh;
+            border: none;
+            border-radius: 3px;
+            padding: 0 1vw 0 1vw;
+          }
+
+          .inputField:focus {
+            outline: none;
+            padding: 0 1vw 0 1vw;
+          }
+        }
+
+        .errorBox {
+          padding: 1vh 0 1vh 0;
+          height: auto;
+          width: 100%;
+          font-size: 1rem;
+          text-align: center;
+          color: $offwhite;
+          background-color: $professionalDietist;
+        }
+
+        .loginFormSubmit {
+          width: 100%;
+          height: 15%;
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+
+          .loginButton {
+            background-color: $yellow;
+            letter-spacing: 1px;
+            color: $offwhite;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+            height: 100%;
+            width: 20%;
+          }
+
+          .loginButton:active {
+            letter-spacing: 1px;
+            background-color: $dark-grey-blue;
+            color: $offwhite;
+            text-align: center;
+            cursor: pointer;
+          }
+
+        }
+      }
+    }
+  }
+}
+
+@include phone{
+
+  .loginBlock {
+    overflow: hidden;
+    display: flex;
+    height: 91vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background-color: $admin-white;
+
+    .loginFormContainer {
+      background-color: $offwhite;
+      width: 80vw;
+      height: auto;
+      border-radius: 3px;
+
+      .loginTitle {
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 2px;
+        font-size: 1.4rem;
+        border-radius: 3px 3px 0 0;
+        text-align: center;
+        background-color: $yellow;
+        color: $offwhite;
+      }
+
+      .loginContent {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+
+        .loginForm {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          flex-direction: column;
+          box-sizing: border-box;
+          padding: 4vh 5vw 4vh 5vw;
+
+
+          .loginFormLabel {
+            width: 100%;
+            height: auto;
+            color: $dark-grey-blue;
+            letter-spacing: 1px;
+            font-size: 1rem;
+            display: flex;
+            align-items: center;
+          }
+
+          .loginFormField {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: auto;
+            padding-bottom: 2vh;
+
+            .inputField {
+              width: 100%;
+              height: 5vh;
+              border: none;
+              border-radius: 3px;
+              box-sizing: border-box;
+              padding: 0 2vw 0 2vw;
+            }
+
+            .inputField:focus {
+              outline: none;
+              padding: 0 1vw 0 1vw;
+            }
+          }
+
+          .errorBox {
+            padding: 1vh 0 1vh 0;
+            height: auto;
+            width: 100%;
+            font-size: 1rem;
+            text-align: center;
+            color: $offwhite;
+            background-color: $professionalDietist;
+          }
+
+          .loginFormSubmit {
+            width: 100%;
+            height: 15%;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+
+            .loginButton {
+              background-color: $yellow;
+              letter-spacing: 1px;
+              color: $offwhite;
+              text-align: center;
+              border: none;
+              cursor: pointer;
+              height: 100%;
+              width: 100%;
+            }
+
+            .loginButton:active {
+              letter-spacing: 1px;
+              background-color: $dark-grey-blue;
+              color: $offwhite;
+              text-align: center;
+              cursor: pointer;
+              width: 90%;
+              height: 90%;
+            }
+
+          }
+        }
+      }
+    }
+  }
+}

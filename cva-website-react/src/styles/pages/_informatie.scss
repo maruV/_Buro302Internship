@@ -1,0 +1,239 @@
+.InfoPage {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: $dark-grey-blue;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+
+  .beeldmerk-container {
+    position: absolute;
+    left: 53vw;
+    top: 48vh;
+    height: 125px;
+    width: 125px;
+
+    img {
+      object-fit: contain;
+      height: 100%;
+      width: 100%;
+      transform: translate(-50%, -50%);
+    }
+  }
+
+  .leftContainer {
+    display: flex;
+    width: 53vw;
+    background-color: $offwhite;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+
+    .beeldmerkMOBILE-container{
+      display: none;
+    }
+
+    .leftHeader {
+      width: 85%;
+      height: auto;
+      color: $dark-grey-blue;
+      font-family: $nevis;
+      font-size: 1.6rem;
+      font-weight: bolder;
+      line-height: 50px;
+      margin-top: 3vh
+    }
+
+    .leftTextBox {
+      width: 85%;
+      height: auto;
+      font-family: $opensans;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: $dark-grey-blue;
+      font-size: 1.1rem;
+      line-height: 30px;
+
+      .leftTextContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 15px;
+
+        .leftSerial {
+          width: 10%;
+          display: flex;
+          justify-content: flex-start;
+          align-items: flex-start;
+          color: $yellow;
+          font-weight: bold;
+          font-size: larger;
+        }
+
+        .leftText {
+          width: 90%;
+          line-height: 40px;
+        }
+      }
+    }
+  }
+
+  .rightContainer {
+    display: flex;
+    width: 47vw;
+    height: 100%;
+    background-color: $dark-grey-blue;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+
+    .rightHeader {
+      width: 85%;
+      font-family: $nevis;
+      font-weight: bolder;
+      line-height: 50px;
+      color: $white;
+      font-size: 3rem;
+      margin-top: 3vh;
+    }
+
+    .rightTextBox {
+      width: 85%;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .rightTextContainer {
+        display: flex;
+        height: 90%;
+        flex-direction: row;
+        padding-bottom: 70px;
+
+        .rightSerial {
+          width: 22%;
+          font-family: $nevis;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          color: $yellow;
+          font-weight: bold;
+          font-size: 2.5rem;
+          box-sizing: border-box;
+          padding: 10px;
+        }
+
+        .rightText {
+          width: 78%;
+          font-family: $opensans;
+          line-height: 40px;
+          color: $white;
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+
+}
+
+@include phone {
+  .InfoPage {
+    display: flex;
+    flex-direction: column;
+
+    .beeldmerk-container {
+      display: none;
+    }
+
+    .leftContainer {
+      width: 100vw;
+      padding: 20px 0 0 0;
+      height: auto;
+
+      .beeldmerkMOBILE-container{
+        bottom: calc(-100px / 2);
+        position: relative;
+        height: 100px;
+        width: 100px;
+        display: flex;
+
+        >img {
+          object-fit: contain;
+          height: 100%;
+          width: 100%;
+        }
+      }
+
+      .leftHeader {
+        width: 85%;
+        font-size: 1.1rem;
+        font-family: $nevis;
+        line-height: 1.5;
+        margin: 0;
+      }
+
+      .leftTextBox{
+        width: 85%;
+        padding-bottom: 30px;
+
+        .leftText2 {
+          padding: 0;
+          margin: 0;
+        }
+
+        .leftTextContainer{
+
+          .leftSerial{
+            font-weight: bold;
+            padding: 5px;
+          }
+
+          .leftText{
+
+          }
+        }
+      }
+    }
+
+    .rightContainer {
+      width: 100vw;
+      font-size: 1rem;
+      padding: 50px 0 0 0;
+      justify-content: center;
+
+      .rightHeader {
+        display: flex;
+        width: 85%;
+        font-size: 1.2rem;
+        justify-content: center;
+        letter-spacing: 1px;
+        font-weight: normal;
+        margin: 0;
+      }
+
+      .rightTextBox{
+        width: 85%;
+
+        .rightTextContainer{
+          width: 100%;
+
+          .rightSerial{
+            font-size: 1.6rem;
+          }
+
+          .rightText{
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  }
+}

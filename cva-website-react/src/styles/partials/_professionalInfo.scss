@@ -1,0 +1,263 @@
+.ProfessionalInfo{
+  width: 62vw;
+  height: 100%;
+  box-sizing: border-box;
+  background-color: $offwhite;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+
+  .websiteLinkContainerMOBILE{
+    display: none;
+  }
+
+  .ContactInfoContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    background-color: $offwhite;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .InfoTextContainer{
+      width: 100%;
+      height: auto;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 2vh 7vw 2vh 7vw;
+
+      .contactTextContainer{
+        display: flex;
+        width: auto;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        box-sizing: border-box;
+
+        .contactHeader{
+          width: 100%;
+          font-family: $nevis;
+          font-weight: bold;
+          font-size: 2.2rem;
+          color: $dark-grey-blue;
+          letter-spacing: 1.5px;
+        }
+
+        .contactText{
+          width: 100%;
+          color: $dark-grey-blue;
+          font-family: $opensans;
+          font-size: 1.1rem;
+          margin: 0;
+          padding: 0;
+          letter-spacing: 1px;
+
+        }
+
+      }
+
+      .websiteLinkContainerWEB{
+        width: auto;
+        height: auto;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        .linkButton{
+          border-style: none;
+          background-color: $yellow;
+          width: 12vw;
+          height: 20%;
+          font-family: $opensans;
+          font-size: 0.9rem;
+          color: $white;
+          letter-spacing: 1.6px;
+          cursor: pointer;
+
+        }
+      }
+    }
+
+    .WorkDaysContainer{
+      display: flex;
+      width: 100%;
+      height: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      box-sizing: border-box;
+      padding: 0 0 2vh 7vw;
+
+      .workdaysHeader{
+        color: $dark-grey-blue;
+        font-family: $nevis;
+        font-weight: bold;
+        font-size: 2.2rem;
+        margin-bottom: 0;
+        letter-spacing: 1.5px;
+      }
+
+      .workdaysText{
+        color: $dark-grey-blue;
+        font-family: $opensans;
+        font-size: 1.1rem;
+        letter-spacing: 1px;
+      }
+    }
+
+  }
+
+  .PersonalInfoContainer{
+    background-color: $white;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    padding: 7vh 7vw;
+
+
+    .AcademicInfoContainer{
+      width: 100%;
+      height: auto;
+      border-bottom: solid 5px $dark-grey-blue;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-bottom: 7vh;
+
+      .academicHeader{
+        font-family: $nevis;
+        font-size: 2.2rem;
+        font-weight: bold;
+        color: $dark-grey-blue;
+        margin: 0;
+        padding: 0;
+
+      }
+
+      .academicText{
+        font-family: $opensans;
+        font-size: 1.1rem;
+        color: $dark-grey-blue;
+        letter-spacing: 1px;
+        line-height: 30px;
+        margin-bottom: 0;
+
+      }
+    }
+
+    .OtherInfoContainer{
+      height: auto;
+      padding-top: 7vh;
+
+      .infoHeader{
+        color: $dark-grey-blue;
+        font-family: $nevis;
+        font-weight: bold;
+        font-size: 2.2rem;
+        margin: 0;
+        padding: 0;
+      }
+
+      .infoText{
+        color: $dark-grey-blue;
+        font-family: $opensans;
+        font-size: 1.8vh;
+        letter-spacing: 1px;
+        line-height: 30px;
+
+      }
+
+    }
+  }
+
+}
+
+@include phone{
+
+  .ProfessionalInfo{
+    box-sizing: border-box;
+    padding-top: 4vh;
+    width: 100vw;
+    overflow-y: hidden;
+
+    .ContactInfoContainer{
+      width: 100%;
+
+      .InfoTextContainer {
+
+        .contactTextContainer {
+          width: 100vw;
+          height: auto;
+
+          .contactHeader {
+          }
+
+          .contactText {
+          }
+        }
+
+        .websiteLinkContainerWEB {
+          display: none;
+
+          .linkButton {
+            display: none;
+          }
+        }
+      }
+    }
+
+    .PersonalInfoContainer{
+
+      .AcademicInfoContainer{
+
+        .academicHeader{
+          letter-spacing: 0.5px;
+        }
+
+        .academicText{}
+
+      }
+
+      .OtherInfoContainer{
+
+        .infoHeader{
+          font-size: 4vh;
+          letter-spacing: 1px;
+        }
+
+        .infoText{}
+
+      }
+    }
+
+    .websiteLinkContainerMOBILE{
+      display: flex;
+      width: 100%;
+      height: 20vh;
+      background-color: $white;
+      justify-content: center;
+      align-items: flex-start;
+
+      .linkButton2{
+        width: 60%;
+        height: 35%;
+        border-style: none;
+        background-color: $yellow;
+        color: $white;
+        font-family: $opensans;
+        letter-spacing: 1px;
+        cursor: pointer;
+      }
+
+    }
+  }
+
+}

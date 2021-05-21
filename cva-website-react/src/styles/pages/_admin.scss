@@ -1,0 +1,312 @@
+.adminBlock {
+  display: flex;
+  height: 88vh;
+  width: 100vw;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+
+  .adminBlockInvite {
+    display: flex;
+    height: 88vh;
+    width: 45vw;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: $white;
+
+    .createProfessional {
+      width: 35vw;
+      height: 30vh;
+      border-radius: 3px;
+      padding: 2vw;
+
+      .title {
+        border-radius: 3px 3px 0 0;
+        text-align: center;
+        letter-spacing: 1px;
+        background-color: $dark-grey-blue;
+        color: $offwhite;
+        height: 5vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+      }
+
+        .content {
+          padding: 2em 1em;
+          height: 20vh;
+          background-color: $offwhite;
+
+          .loginFormLabel {
+            width: 100%;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            color: $dark-grey-blue;
+          }
+
+          .loginFormField {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            padding-bottom: 5%;
+            padding-top: 1%;
+
+            .inputField {
+              width: 100%;
+              padding: 10px;
+              border: 1px solid grey;
+              border-radius: 3px;
+            }
+
+            .inputField:focus {
+              outline: none;
+            }
+          }
+
+          .errorBox {
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: $professionalZiekenhuizen;
+            color: $offwhite;
+            font-size: 1.2rem;
+          }
+
+          .loginFormSubmit {
+            width: 100%;
+            display: flex;
+            height: 6vh;
+            align-items: flex-end;
+            justify-content: flex-end;
+
+            .loginButton {
+              font-size: 0.9rem;
+              background-color: $yellow;
+              color: $offwhite;
+              text-align: center;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              cursor: pointer;
+              letter-spacing: 1px;
+              margin-top: 10px;
+              padding: 0.5vw;
+              border: none;
+            }
+
+            .loginButton:active {
+              background-color: $dark-grey-blue;
+              color: $offwhite;
+              cursor: pointer;
+            }
+
+          }
+        }
+      }
+    }
+  }
+
+  .adminBlockList {
+    display: flex;
+    height: 88vh;
+    width: 60vw;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    background-color: $offwhite;
+
+    .logOutButtonContainer {
+      width: 50vw;
+      height: 5vh;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-end;
+
+      .logOutButton {
+        font-size: 1.2rem;
+        padding: 1vh 2vw 1vh 2vw;
+        text-decoration: none;
+        background-color: $yellow;
+        color: $white;
+        letter-spacing: 1px;
+        cursor: pointer;
+      }
+
+      .logOutButton:active {
+        background-color: $dark-grey-blue;
+        color: $offwhite;
+        cursor: pointer;
+      }
+    }
+
+      .createProfessional {
+        background-color: $dark-grey-blue;
+        width: 50vw;
+        height: 68vh;
+        border-radius: 3px;
+        padding-bottom: 20px;
+
+        .title {
+          border-radius: 3px 3px 0 0;
+          text-align: center;
+          letter-spacing: 1px;
+          background-color: $dark-grey-blue;
+          color: $offwhite;
+          height: 5vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .professionalList {
+          height: 65vh;
+          overflow-y: scroll;
+          overflow-x: hidden;
+
+          .professionalItem {
+            padding: 10px 0 10px 0;
+            margin: 1px 0 1px 0;
+            background-color: $white;
+            display: inline-flex;
+            width: 100%;
+
+            .professionalName {
+              width: 70%;
+              padding: 0 1em;
+            }
+
+            .professionalOptions {
+              display: flex;
+              flex-wrap: nowrap;
+              align-content: flex-end;
+              padding: 0 1em;
+
+              button:first-child {
+                margin-right: 1em;
+              }
+            }
+          }
+        }
+
+        .errorBox {
+          text-align: center;
+          background-color: $professionalZiekenhuizen;
+          color: $offwhite;
+        }
+      }
+  }
+
+
+
+
+@include phone{
+
+  .adminBlock{
+    flex-direction: column;
+    height: 91vh;
+    box-sizing: border-box;
+
+    .adminBlockInvite{
+      width: 100vw;
+      height: 40vh;
+      display: flex;
+      margin: 0;
+      padding: 0;
+
+      .createProfessional{
+        height: 32vh;
+        margin: 0;
+        width: 90vw;
+        padding: 0;
+
+        .title{
+
+        }
+
+        .content{
+          padding: 0;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 80%;
+
+          .loginFormLabel{
+            width: 100%;
+            height: 5vh;
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+          }
+
+          .loginFormField{
+
+            .inputField{
+              width: 90%;
+            }
+
+          }
+
+          .loginFormSubmit{
+            box-sizing: border-box;
+            padding-right: 10px;
+
+            .loginButton{
+              height: 90%;
+            }
+          }
+
+        }
+      }
+    }
+
+    .adminBlockList{
+      height: 60vh;
+      width: 100vw;
+      margin: 0;
+      overflow-y: scroll;
+
+      .createProfessional{
+        width: 90vw;
+        height: 50vh;
+        padding: 0;
+        margin: 0;
+
+
+        .title{
+          height: 6vh;
+        }
+
+        .professionalList{
+          height: 45vh;
+          overflow-x: scroll;
+          background-color: transparent;
+
+          .professionalItem{
+            height: 5vh;
+            width: auto;
+            font-size: 0.8rem;
+
+            .professionalOptions{
+
+
+              .editProfessional{
+
+              }
+
+              .removeProfessional{
+
+              }
+            }
+
+          }
+        }
+      }
+    }
+
+  }
+}

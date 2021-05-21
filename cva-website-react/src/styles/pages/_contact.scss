@@ -1,0 +1,43 @@
+.ContactPage{
+  width: 100vw;
+  height: calc(88vh);
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+@include phone {
+
+  .ContactPage {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: $yellow;
+  }
+}
+
+.contact-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 250px;
+  height: 100px;
+  background: $dark-grey-blue;
+  color: $white;
+
+  &.show {
+    display: block;
+  }
+
+  & > div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);  }
+}

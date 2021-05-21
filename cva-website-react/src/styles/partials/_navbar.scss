@@ -1,0 +1,246 @@
+.menuOverlayContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+  position: absolute;
+  z-index: 99;
+  top: -100%;
+  left: 0;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+  transition: all ease-in-out 500ms;
+
+  &.active {
+    top: 0;
+    opacity: 1;
+  }
+
+  .crossContainer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cross {
+      width: 40%;
+      height: 40%;
+      cursor: pointer;
+    }
+  }
+
+  .OverlayLinksContainer {
+    width: 100vw;
+    height: auto;
+    background-color: $dark-grey-blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+
+    #removeBorder {
+      border: none;
+    }
+
+    .LinkContainer {
+      width: 80%;
+      height: auto;
+      border-bottom: solid 2px $white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .OverlayLinks {
+        height: auto;
+        width: 50%;
+        background-color: transparent;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $white;
+
+        > p {
+          margin: 0;
+          padding: 0;
+          font-family: $nevis;
+          font-size: 1.3rem;
+          font-weight: bold;
+          line-height: 75px;
+          letter-spacing: 1px;
+        }
+
+      }
+    }
+  }
+
+  .transparentBackground {
+    height: 100%;
+    width: 100vw;
+    background-color: transparent;
+  }
+}
+
+.navBarContainer {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  position: fixed;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  z-index: 6;
+  height: calc(12vh);
+  background-color: $white;
+  align-items: center;
+
+  &.static-push {
+    position: static;
+  }
+}
+
+
+.cvaNavLogoContainer {
+  display: flex;
+  justify-content: flex-start;
+  width: 25vw;
+  height: 10vh;
+
+  .cvaHome {
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 100%;
+
+    .image-wrapper2 {
+      display: flex;
+      justify-content: flex-start;
+      width: 80%;
+      height: auto;
+      box-sizing: border-box;
+      padding: 0 0 0 25px;
+
+      > img {
+        width: 90%;
+        height: auto;
+        object-fit: contain;
+        margin: 0;
+      }
+    }
+  }
+}
+
+.buttonListContainer {
+  display: flex;
+  width: 75vw;
+  height: 10vh;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  height: auto;
+  border-right-style: solid;
+  border-right-width: thin;
+  padding: 0 2vw 0 2vw;
+  background-color: transparent;
+}
+
+.buttonContainerContacts {
+  display: flex;
+  width: 25%;
+  height: auto;
+  justify-content: center;
+}
+
+.cvaNavButtons {
+  text-decoration: none;
+  font-family: $opensans;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 4.3px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $dark-grey-blue;
+}
+
+.menuButton {
+  display: none;
+}
+
+@include phone {
+
+  .navBarContainer {
+    display: flex;
+    width: 100vw;
+    height: calc(9vh);
+    justify-content: space-between;
+    background-color: $white;
+
+    .menuButtonWrapper {
+      display: flex;
+      width: 20vw;
+      height: 4vh;
+      justify-content: center;
+      align-items: center;
+
+      .menuButton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-style: none;
+        cursor: pointer;
+        background-color: $white;
+        width: 65%;
+        height: 75%;
+
+        > img {
+          width: auto;
+          height: 90%;
+          object-fit: contain;
+          background-color: $white;
+        }
+      }
+    }
+
+    .cvaNavLogoContainer {
+      display: flex;
+      width: 50vw;
+      height: 100%;
+      background-color: white;
+      justify-content: flex-start;
+
+      .cvaHome {
+        display: flex;
+        justify-content: flex-start;
+
+        .image-wrapper2 {
+          height: 100%;
+          justify-content: flex-start;
+          align-items: center;
+
+          > img {
+            width: 100%;
+            object-fit: contain;
+          }
+        }
+      }
+    }
+
+    .buttonListContainer {
+      display: none;
+    }
+  }
+}

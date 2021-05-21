@@ -1,0 +1,31 @@
+@import "base/normalize";
+@import "base/variables";
+@import "base/typography";
+@import "mixins/media";
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+@import "pages/pages";
+@import "partials/partials";
+
+@font-face {
+  font-family: nevis;
+  src: url('../assets/fonts/nevis.ttf');
+}
+
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+
+}
+
+.App {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+textarea {
+  resize: none;
+}
